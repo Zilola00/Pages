@@ -1,0 +1,105 @@
+* {
+  margin: 0px;
+  padding: 0px;
+  box-sizing: border-box;
+}
+
+body {
+  background-color: rgb(27, 55, 100);
+  position: relative;
+}
+
+.pagess {
+  display: flex;
+}
+
+nav {
+  width: 100%;
+  height: 70px;
+  display: flex;
+  gap: 10px;
+  justify-content: space-around;
+  font-family: "Inter", sans-serif;
+  font-optical-sizing: 600px;
+  font-weight: weight;
+  font-style: normal;
+}
+
+.pages-one {
+  padding: 20px;
+  background-color: rgb(27, 55, 100);
+  display: flex;
+  gap: 9px;
+  color: rgb(245, 248, 252);
+}
+
+.pages-two {
+  color: rgb(246, 248, 252);
+}
+.pages-two .sml {
+  padding: 20px;
+  list-style-type: none;
+  display: flex;
+  gap: 30px;
+}
+.pages-two #home {
+  color: rgb(255, 202, 66);
+}
+
+.pages-three {
+  padding: 20px;
+  display: flex;
+  gap: 40px;
+}
+.pages-three button {
+  padding: 10px;
+  width: 150px;
+  height: 45px;
+  color: rgb(27, 55, 100);
+  background-color: rgb(255, 202, 66);
+  border: none;
+}
+
+main {
+  padding: 20px;
+  width: 550px;
+  height: 600px;
+  position: absolute;
+  left: 50px;
+  color: rgb(255, 255, 255);
+  font-family: "EB Garamond", serif;
+  font-optical-sizing: 100px;
+  font-weight: weight;
+  font-style: normal;
+}
+main .main-one > p, main ul {
+  font-family: "Montserrat", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: normal;
+  font-style: normal;
+  color: rgb(180, 199, 231);
+}
+main .ul-pages {
+  font-family: "Montserrat", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: normal;
+  font-style: normal;
+  color: rgb(180, 199, 231);
+}
+main button {
+  background-color: rgb(255, 202, 66);
+  border: none;
+  padding: 10px;
+  width: 150px;
+  height: 45px;
+  color: rgb(27, 55, 100);
+}
+main .btn-but {
+  display: flex;
+  gap: 40px;
+  align-items: center;
+}
+main .ul-pages {
+  display: flex;
+  gap: 100px;
+}/*# sourceMappingURL=index.css.map */
